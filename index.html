@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Durkadevi Iyappan — Aspiring Java Developer</title>
+<meta name="description" content="Portfolio of Durkadevi Iyappan, ECE student and aspiring Java developer with knowledge of backend and web technologies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./portfolioStyle.css">
+</head>
+<body>
+
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<header class="site-header">
+  <nav class="nav-wrap">
+    <a href="#top" class="brand">DI<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">// aspiring_java_developer.init()</p>
+        <h1>Durkadevi Iyappan</h1>
+        <p class="hero-role">Aspiring Java Developer &amp; Problem Solver — building a foundation in backend and web technologies.</p>
+        <p class="hero-desc">
+          Electronics &amp; Communication Engineering student transitioning into software development.
+          Strong foundation in Java, OOP, and data structures, with hands-on exposure to backend
+          technologies like JDBC, Servlets and Hibernate, and a growing interest in web development
+          and practical, database-driven applications.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/durkadeviiyappan" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/durkadeviiyappan" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img src="./images/my picture.jpeg" alt="Durkadevi Iyappan">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <p class="section-eyebrow reveal">// skills</p>
+    <h2 class="section-title reveal">Technical Skills</h2>
+    <p class="section-lead reveal">Core areas I work with, grouped by how I use them.</p>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3><span class="tag-index">01</span> Programming</h3>
+        <ul class="chip-list">
+          <li>Java</li>
+          <li>OOP Concepts</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3><span class="tag-index">02</span> Backend / Java Technologies</h3>
+        <ul class="chip-list">
+          <li>JDBC</li>
+          <li>Servlets</li>
+          <li>Hibernate</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3><span class="tag-index">03</span> Database</h3>
+        <ul class="chip-list">
+          <li>MySQL</li>
+          <li>SQL</li>
+          <li>PostgreSQL</li>
+        </ul>
+        <p class="skill-note">Most hands-on experience with MySQL; working knowledge of PostgreSQL and SQL fundamentals.</p>
+      </div>
+      <div class="skill-card reveal">
+        <h3><span class="tag-index">04</span> Web Technologies</h3>
+        <ul class="chip-list">
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <p class="section-eyebrow reveal">// projects</p>
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="section-lead reveal">Applied practice building backend and database-driven applications.</p>
+
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <div class="project-card-head">
+          <h3>Personal Financial Tracker</h3>
+          <span class="project-type">Web App</span>
+        </div>
+        <p>
+          A web-based personal financial tracker that lets users manage and track their income
+          and expenses. Users can store their financial transaction details in a database and
+          manage their financial records.
+        </p>
+        <ul class="tech-list">
+          <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java Servlets</li><li>MySQL</li>
+        </ul>
+        <a class="btn btn-outline" href="https://github.com/durkadeviiyappan/personal-financial-tracker/tree/master/financial-tracker" target="_blank" rel="noopener">
+          View on GitHub ↗
+        </a>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-card-head">
+          <h3>JDBC Authentication System</h3>
+          <span class="project-type">Console App</span>
+        </div>
+        <p>
+          A console-based Java authentication system built with core OOP concepts and connected
+          to MySQL. Handles user registration, login, password reset, verification code
+          generation, database connectivity, and user validation.
+        </p>
+        <ul class="tech-list">
+          <li>Java</li><li>OOP Concepts</li><li>JDBC</li><li>MySQL</li>
+        </ul>
+        <a class="btn btn-outline" href="https://github.com/durkadeviiyappan/jdbc-authentication-system" target="_blank" rel="noopener">
+          View on GitHub ↗
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <p class="section-eyebrow reveal">// education</p>
+    <h2 class="section-title reveal">Education</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>B.E. Electronics &amp; Communication Engineering</h3>
+          <p class="timeline-org">Mahendra Engineering College for Women</p>
+          <p class="timeline-meta">2023 – 2027 · 4th Year · CGPA: 8.0</p>
+          <p>Focused on programming, data structures, and software development.</p>
+        </div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Higher Secondary Education (12th Standard)</h3>
+          <p class="timeline-org">Government Girls Higher Secondary School</p>
+          <p class="timeline-meta">Percentage: 78.6%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS & CERTIFICATES (preserved content, restyled) -->
+  <section id="awards" class="section section-alt">
+    <p class="section-eyebrow reveal">// awards</p>
+    <h2 class="section-title reveal">Awards &amp; Certificates</h2>
+
+    <div class="award-grid">
+      <div class="award-card reveal">
+        <h3>Successfully completed a 1-Month Java Bootcamp (Code IO), gaining hands-on experience in Java and core programming concepts</h3>
+        <a class="cert-link" href="./images/codeio certificate.jpeg" target="_blank" rel="noopener">Bootcamp Certificate ↗</a>
+      </div>
+      <div class="award-card reveal">
+        <h3>Achieved Second Place in Catch25, a competitive, placement-focused event conducted in my college, highlighting my problem-solving ability</h3>
+        <img src="./images/catch-25 picture.jpeg" alt="Catch25 winning picture" class="award-img">
+        <a class="cert-link" href="./images/catch-25 certificate.jpeg" target="_blank" rel="noopener">Certificate ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & LEARNING JOURNEY -->
+  <section id="experience" class="section">
+    <p class="section-eyebrow reveal">// experience</p>
+    <h2 class="section-title reveal">Experience &amp; Learning Journey</h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Infynd 36-Hour Hackathon</h3>
+          <p>
+            Participated in an intensive 36-hour hackathon where I worked in a team to build
+            solutions under time constraints. This experience improved my problem-solving,
+            teamwork, and ability to handle pressure.
+          </p>
+          <img src="./images/Infynd picture.jpeg" alt="Experience at Infynd hackathon" class="award-img">
+          <a class="cert-link" href="./images/infynd certificate.jpeg" target="_blank" rel="noopener">Certificate ↗</a>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Internship – Embedded Systems &amp; Microcontrollers</h3>
+          <p>
+            Completed an internship during my second year focused on embedded systems and
+            microcontrollers. Gained basic knowledge of hardware interaction and real-time
+            system concepts.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Catch26 Final Round – Communication</h3>
+          <p>
+            Reached the final round of Catch26 and presented my ideas in a communication round.
+            This experience strengthened my confidence and public speaking skills.
+          </p>
+          <img src="./images/communication.jpeg" alt="Catch26 communication round" class="award-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <p class="section-eyebrow reveal">// contact</p>
+    <h2 class="section-title reveal">Let's Connect</h2>
+    <p class="section-lead reveal">Open to software developer and backend developer opportunities.</p>
+    <div class="contact-links reveal">
+      <a href="https://github.com/durkadeviiyappan" target="_blank" rel="noopener" class="btn btn-primary">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/durkadeviiyappan" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© 2026 Durkadevi Iyappan. Built with care.</p>
+</footer>
+
+<script>
+  // Mobile nav toggle
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  navLinks.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Scroll progress rail
+  const progressFill = document.getElementById('progressFill');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const scrolled = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    progressFill.style.width = scrolled + '%';
+  });
+
+  // Reveal on scroll
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReducedMotion && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+  }
+</script>
+
+</body>
+</html>
