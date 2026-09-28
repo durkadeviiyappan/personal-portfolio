@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Durkadevi Iyappan — Java Developer</title>
+<meta name="description" content="Portfolio of Durkadevi Iyappan, final-year ECE student and Java developer working with Spring Boot, JDBC, Hibernate and MySQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./portfolioStyle.css">
+</head>
+<body>
+<div class="progress-rail" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
+
+<header class="site-header" id="siteHeader">
+  <nav class="nav-wrap" aria-label="Main">
+    <a href="#top" class="brand">Durkadevi<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#top">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="status-pill"><i></i>Open to software &amp; backend developer roles</span>
+        <p class="hero-hello">Hi, I'm</p>
+        <h1>Durkadevi Iyappan</h1>
+        <p class="hero-role">Java Developer &nbsp;|&nbsp; Spring Boot &nbsp;|&nbsp; Full-Stack Enthusiast</p>
+        <p class="hero-desc">Final-year Electronics &amp; Communication Engineering student preparing for software development roles. I build backend and database-driven applications with Java.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-accent">View Projects</a>
+          <a href="#contact" class="btn btn-light">Contact Me</a>
+          <!-- Resume: add your file as ./resume.pdf, then uncomment:
+          <a href="./resume.pdf" target="_blank" rel="noopener" class="btn btn-light">Resume</a> -->
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/durkadeviiyappan" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/durkadeviiyappan" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:durkadeviiyappan@gmail.com">Email</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-ring"><div class="photo-frame">
+          <img src="./images/profesionalPhoto.jpeg" onerror="this.onerror=null;this.src='./images/profile.jpeg'" alt="Portrait of Durkadevi Iyappan" width="720" height="892">
+        </div></div>
+        <span class="float-chip chip-a">Java Developer</span>
+        <span class="float-chip chip-b">Spring Boot</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-label="Technologies I work with">
+    <ul class="marquee-track"><li>Java</li><li>Spring Boot</li><li>Spring JPA</li><li>Hibernate</li><li>JDBC</li><li>SQL</li><li>MySQL</li><li>PostgreSQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul>
+    <ul class="marquee-track" aria-hidden="true"><li>Java</li><li>Spring Boot</li><li>Spring JPA</li><li>Hibernate</li><li>JDBC</li><li>SQL</li><li>MySQL</li><li>PostgreSQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap</li></ul>
+  </div>
+
+  <section id="about" class="section">
+    <h2 class="section-title reveal">About</h2>
+    <div class="about-grid reveal">
+      <p>I'm a final-year Electronics and Communication Engineering student preparing for software development roles. Java is my primary language, and I've worked with it through core OOP, SQL, JDBC, Hibernate and the Spring ecosystem.</p>
+      <p>I learn by building. My projects include a console-based authentication system and an AI chatbot with a Spring Boot backend and the Gemini API. I'm looking for a software or backend developer role where I can keep growing.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-tint">
+    <div class="wrap">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><h3>Programming Language</h3><ul class="chip-list"><li>Java</li></ul></div>
+        <div class="skill-card reveal"><h3>Frontend</h3><ul class="chip-list"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div>
+        <div class="skill-card reveal"><h3>CSS Framework</h3><ul class="chip-list"><li>Bootstrap</li></ul></div>
+        <div class="skill-card reveal"><h3>Backend / Java Technologies</h3><ul class="chip-list"><li>JDBC</li><li>Hibernate</li><li>Spring</li><li>Spring Boot</li><li>Spring JPA</li></ul></div>
+        <div class="skill-card reveal"><h3>Database &amp; Query Language</h3><ul class="chip-list"><li>SQL</li><li>MySQL</li><li>PostgreSQL</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-title reveal">Projects</h2>
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <div class="project-visual v-chat" aria-hidden="true"><span>AI Chatbot</span><small>Spring Boot · Gemini API</small></div>
+        <div class="project-body">
+          <div class="project-head"><h3>AI Chatbot</h3><span class="project-type">Full-stack web app</span></div>
+          <p>A real-time, ChatGPT-style chatbot. The Spring Boot backend calls the Gemini API, and users register and log in before chatting.</p>
+          <ul class="feature-list">
+            <li>Real-time communication between the client and the AI chatbot</li>
+            <li>Gemini API integrated on the backend</li>
+            <li>User registration, login and authentication, stored in the database</li>
+            <li>Frontend talks to the backend using the JavaScript Fetch API</li>
+          </ul>
+          <ul class="tech-list"><li>Java</li><li>Spring Boot</li><li>Spring JPA</li><li>MySQL</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Gemini API</li></ul>
+          <div class="card-actions">
+            <a class="btn btn-outline" href="https://github.com/durkadeviiyappan/ai-chatbot" target="_blank" rel="noopener">View on GitHub</a>
+            <a class="btn btn-accent" href="https://ai-chatbot-production-2767.up.railway.app/login.html" target="_blank" rel="noopener">Live Demo</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-visual v-jdbc" aria-hidden="true"><span>JDBC Auth</span><small>Core Java · JDBC · MySQL</small></div>
+        <div class="project-body">
+          <div class="project-head"><h3>JDBC Authentication System</h3><span class="project-type">Core Java project</span></div>
+          <p>A Java-based authentication system built with Core Java, OOP concepts, JDBC and MySQL. One of my first projects after learning Core Java, SQL and database connectivity.</p>
+          <ul class="feature-list">
+            <li>User registration and login</li>
+            <li>Password reset with verification code generation</li>
+            <li>User validation, including duplicate-user checks</li>
+            <li>Database connectivity and MySQL integration</li>
+            <li>Exception handling</li>
+          </ul>
+          <ul class="tech-list"><li>Java</li><li>Core Java</li><li>OOP</li><li>JDBC</li><li>SQL</li><li>MySQL</li></ul>
+          <div class="card-actions">
+            <a class="btn btn-outline" href="https://github.com/durkadeviiyappan/jdbc-authentication-system" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="section section-tint">
+    <div class="wrap">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-content">
+          <h3>B.E. Electronics &amp; Communication Engineering</h3>
+          <p class="timeline-org">Mahendra Engineering College for Women</p>
+          <p class="timeline-meta">2023 – 2027 · 4th year · CGPA 8.0</p>
+          <p>Focused on programming, data structures and software development.</p>
+        </div></div>
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-content">
+          <h3>Higher Secondary Education (12th Standard)</h3>
+          <p class="timeline-org">Government Girls Higher Secondary School</p>
+          <p class="timeline-meta">78.6%</p>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards" class="section">
+    <h2 class="section-title reveal">Awards &amp; Certificates</h2>
+    <div class="award-grid">
+      <div class="award-card reveal">
+        <h3>Completed a 1-month Java Bootcamp (Code IO), gaining hands-on experience in Java and core programming concepts.</h3>
+        <a class="cert-link" href="./images/codeio%20certificate.jpeg" target="_blank" rel="noopener">View certificate</a>
+      </div>
+      <div class="award-card reveal">
+        <h3>Second place in Catch25, a competitive, placement-focused event at my college, highlighting my problem-solving ability.</h3>
+        <img src="./images/catch-25%20picture.jpeg" alt="Catch25 prize photo" class="award-img" loading="lazy">
+        <a class="cert-link" href="./images/catch-25%20certificate.jpeg" target="_blank" rel="noopener">View certificate</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section section-tint">
+    <div class="wrap">
+      <h2 class="section-title reveal">Experience &amp; Learning</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-content">
+          <h3>Infynd 36-Hour Hackathon</h3>
+          <p>Worked in a team to build solutions under time constraints, improving my problem-solving, teamwork and ability to work under pressure.</p>
+          <img src="./images/Infynd%20picture.jpeg" alt="Infynd hackathon" class="award-img" loading="lazy">
+          <a class="cert-link" href="./images/infynd%20certificate.jpeg" target="_blank" rel="noopener">View certificate</a>
+        </div></div>
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-content">
+          <h3>Internship: Embedded Systems &amp; Microcontrollers</h3>
+          <p>Second-year internship covering embedded systems and microcontrollers, with basic knowledge of hardware interaction and real-time system concepts.</p>
+        </div></div>
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-content">
+          <h3>Catch26 Final Round: Communication</h3>
+          <p>Reached the final round and presented my ideas in a communication round, building confidence and public speaking skills.</p>
+          <img src="./images/communication.jpeg" alt="Catch26 communication round" class="award-img" loading="lazy">
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="contact-inner">
+      <h2 class="section-title reveal">Let's connect</h2>
+      <p class="reveal">Open to software developer and backend developer opportunities.</p>
+      <a class="contact-email reveal" href="mailto:durkadeviiyappan@gmail.com">durkadeviiyappan@gmail.com</a>
+      <div class="contact-links reveal">
+        <a href="mailto:durkadeviiyappan@gmail.com" class="btn btn-accent">Send an Email</a>
+        <a href="https://github.com/durkadeviiyappan" target="_blank" rel="noopener" class="btn btn-light">GitHub</a>
+        <a href="https://www.linkedin.com/in/durkadeviiyappan" target="_blank" rel="noopener" class="btn btn-light">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a href="#top" class="to-top" aria-label="Back to top">&#8593;</a>
+
+<footer class="site-footer"><p>© 2026 Durkadevi Iyappan</p></footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  const closeNav = () => { navLinks.classList.remove('open'); navToggle.classList.remove('open'); navToggle.setAttribute('aria-expanded', 'false'); };
+  navToggle.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open', open);
+    navToggle.setAttribute('aria-expanded', open);
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNav));
+
+  const fill = document.getElementById('progressFill');
+  const header = document.getElementById('siteHeader');
+  const onScroll = () => {
+    const h = document.documentElement;
+    fill.style.width = (h.scrollTop / (h.scrollHeight - h.clientHeight) * 100) + '%';
+    header.classList.toggle('scrolled', h.scrollTop > 40);
+    document.body.classList.toggle('past-hero', h.scrollTop > 500);
+  };
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  const spyLinks = [...navLinks.querySelectorAll('a')];
+  const spy = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) spyLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+  }), { rootMargin: '-45% 0px -50% 0px' });
+  document.querySelectorAll('main section[id]').forEach(sec => spy.observe(sec));
+
+  document.querySelectorAll('.project-card, .skill-card, .award-card, .timeline-content').forEach(c => {
+    c.addEventListener('pointermove', e => {
+      const r = c.getBoundingClientRect();
+      c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      c.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  const items = document.querySelectorAll('.reveal');
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in-view'); io.unobserve(e.target); }
+    }), { threshold: 0.1 });
+    items.forEach(el => io.observe(el));
+  } else items.forEach(el => el.classList.add('in-view'));
+</script>
+</body>
+</html>
